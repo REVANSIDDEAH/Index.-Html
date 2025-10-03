@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentimental Page</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #ffe6e6, #fff0f5);
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #d63384;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+        .quote {
+            font-style: italic;
+            color: #6f42c1;
+            margin-top: 30px;
+            font-size: 22px;
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+            margin-top: 30px;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Memories & Moments</h1>
+    <p>Life is a collection of beautiful memories and tender moments that we hold close to our hearts. Every laugh, every tear, every embrace shapes the story of who we are.</p>
+    <p class="quote">"The best things in life are the people we love, the places we've been, and the memories we've made along the way."</p>
+    <div class="heart">&#10084;</div>
+</body>
+</html>
