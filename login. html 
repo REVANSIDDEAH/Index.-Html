@@ -53,7 +53,13 @@
         .forgot-password a {
             text-decoration: none;
             color: #d63384;
-        }
+        nav {
+<a href="about.html">About Us</a>
+<a href="index.html">index Us</a>
+<a href="sentimental.html">sentimental Us</a>
+<a href="registration.html">regression Us</a>
+<a href="text to speech.html">text to speech Us</a>
+}
     </style>
 </head>
 <body>
