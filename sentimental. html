@@ -40,6 +40,13 @@
             50% { transform: scale(1.2); }
         }
     </style>
+nav {
+<a href="about.html">About Us</a>
+<a href="index.html">index Us</a>
+<a href="sentimental.html">sentimental Us</a>
+<a href="registration.html">regression Us</a>
+<a href="text to speech.html">text to speech Us</a>
+}
 </head>
 <body>
     <h1>Memories & Moments</h1>
