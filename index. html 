@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #232f3e;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #232f3e;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amazon</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to Amazon</h2>
+        <p>Your one-stop shop for millions of products, delivered fast and reliably.</p>
+
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>High-quality gadget at an affordable price.</p>
+        </div>
+
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>Top-rated book for your reading pleasure.</p>
+        </div>
+
+        <div class="product">
+            <h3>Product 3</h3>
+            <p>Essential home appliance to make life easier.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Amazon.com, Inc. All rights reserved.
+    </footer>
+</body>
+</html>
