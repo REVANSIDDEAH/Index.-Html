@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Amazon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #232f3e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+        }
+        h1, h2 {
+            color: #232f3e;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #232f3e;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Amazon</h1>
+    </header>
+
+    <main>
+        <h2>Our Mission</h2>
+        <p>Amazon strives to be Earth's most customer-centric company, where customers can find and discover anything they might want to buy online.</p>
+
+        <h2>Our History</h2>
+        <p>Founded in 1994 by Jeff Bezos, Amazon started as an online bookstore and quickly expanded to become one of the largest e-commerce platforms globally.</p>
+
+        <h2>Our Services</h2>
+        <p>From e-commerce to cloud computing (AWS), digital streaming, and AI, Amazon continues to innovate and offer a wide range of services for customers worldwide.</p>
+    </main>
+
+    <footer>
+        &copy; 2025 Amazon.com, Inc. All rights reserved.
+    </footer>
+</body>
+</html>
